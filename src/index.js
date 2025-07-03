@@ -204,7 +204,7 @@ export class SpaceMaker {
         let y = 0;
         let width = imgWidth;
         let height = imgHeight;
-        let centerScreenRatio = 3 / 4
+        // let centerScreenRatio = 3 / 4
 
         if ((imgWidth / imgHeight) > (canvasWidth / canvasHeight)) {
             this.ratio = (canvasWidth / width);
