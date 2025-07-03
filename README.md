@@ -1,9 +1,7 @@
-# space-maker
-## a tool for mark on the picture
-## 一个在图片上标注点或者范围的工具
-## 如何使用
-## how to use
-<script setup>
+# How to use
+# 如何使用
+```
+    <script setup>
     const drawRef = ref(null)
     const drawCanvas = ref(null)
     drawCanvas.value = new SpaceMaker(drawRef.value, {
@@ -40,3 +38,7 @@
      height: 100vh;
    }
 </style>
+
+```
+## 实现效果
+![Logo](./image.png)
